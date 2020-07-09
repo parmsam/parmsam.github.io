@@ -28,13 +28,22 @@
   color: steelblue;
 }
 
-.thick-green-border {
+.visible-border {
   border-color: royalblue;
   border-width: 5px;
   border-style: solid;
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.invisible-border {
   border-radius: 5px;
   width: 350px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
 }
