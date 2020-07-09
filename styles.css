@@ -1,12 +1,37 @@
 .title {
   text-align: center;
+  font-family: Lobster, palatino;
+  color: orangered;
 }
+.sub-title {
+  text-align: center;
+  font-family: Lobster, palatino;
+  color:tomato;
+}
+
+.image {
+  text-align: center;
+}
+
 .links {
   text-align: center;
+  font-family: Lobster, palatino;
+  font-size: 18px;
 }
 .container {
   text-align: center;
+  font-family: palatino;
 }
 .footnote {
   text-align: center;
+  font-family: Lobster, palatino;
+  color: steelblue;
+}
+
+.thick-green-border {
+  border-color: royalblue;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  width: 350px;
 }
