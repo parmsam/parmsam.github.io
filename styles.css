@@ -2,11 +2,13 @@
   text-align: center;
   font-family: Lobster, palatino;
   color: orangered;
+  font-size: 16px;
 }
 .sub-title {
   text-align: center;
   font-family: Lobster, palatino;
   color:tomato;
+  font-size: 16px;
 }
 
 .image {
@@ -16,16 +18,31 @@
 .links {
   text-align: center;
   font-family: Lobster, palatino;
-  font-size: 18px;
+    font-size: 16px;
 }
 .container {
   text-align: center;
-  font-family: palatino;
+  font-family: Lobster, palatino;
+  font-size: 18px;
 }
+
+.tabcontent {
+  text-align: center;
+}
+
 .footnote {
   text-align: center;
   font-family: Lobster, palatino;
-  color: steelblue;
+  color: royalblue;
+  font-size: 16px;
+}
+
+.image-set {
+  text-align: center;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .visible-border {
