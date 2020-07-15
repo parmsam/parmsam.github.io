@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
 <html>
 
   <head>
@@ -7,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sam's simple website</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
   </head>
 
   <body>
@@ -20,11 +20,19 @@
     </div>
     <hr>
 
-    <div class="image">
-      <a href="https://github.com/parmsam/" target="_blank" class="invisible-border">
-        <img src="https://avatars1.githubusercontent.com/u/40672605?s=400&u=81997eb7e81802cf5af849dd523f2f457e90a2e6&v=4" alt="Profile picture" class="visible-border">
-      </a>
+    <!--card flip based on w3school example https://www.w3schools.com/howto/howto_css_flip_card.asp-->
+    <div class = "flip-card">
+    <div class = "flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://avatars1.githubusercontent.com/u/40672605?s=400&u=81997eb7e81802cf5af849dd523f2f457e90a2e6&v=4"
+        alt="Profile picture" class="visible-border">
+      </div>
+      <div class="flip-card-back">
+        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGWmREd_ElwVg/profile-displayphoto-shrink_400_400/0?e=1600300800&v=beta&t=_p_lAF7d0sVzYT2WM59esiTK3ciGd_wMN1JSeufRWC0" alt="Profile picture" class="visible-border">
+      </div>
+      </div>
     </div>
+
     <br>
     <hr>
 
