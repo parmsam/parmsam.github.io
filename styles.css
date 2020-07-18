@@ -1,14 +1,27 @@
+body {
+  font-family: Poiret One, Lobster, palatino;
+}
+
+a:link {
+  color: green;
+}
+ a:visited {
+   color: lightseagreen ;
+ }
+
 .title {
   text-align: center;
-  font-family: Lobster, palatino;
   color: orangered;
-  font-size: 16px;
+  font-size: 19.5px;
+  font-weight: bold;
+  font-family: Lobster;
+
 }
 .sub-title {
   text-align: center;
-  font-family: Lobster, palatino;
-  color:tomato;
+  color:royalblue;
   font-size: 16px;
+  font-weight: bold;
 }
 
 .flip-card {
@@ -45,13 +58,15 @@
 
 .links {
   text-align: center;
-  font-family: Lobster, palatino;
-    font-size: 16px;
+  font-size: 16px;
 }
 .container {
   text-align: center;
-  font-family: Lobster, palatino;
   font-size: 18px;
+  color: black;
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .tabcontent {
@@ -60,9 +75,8 @@
 
 .footnote {
   text-align: center;
-  font-family: Lobster, palatino;
   color: royalblue;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .image-set {
@@ -75,7 +89,7 @@
 
 .visible-border {
   border-color: royalblue;
-  border-width: 5px;
+  border-width: 3px;
   border-style: solid;
   width: 340px;
   display: block;
@@ -85,10 +99,17 @@
 }
 
 .invisible-border {
-  border-radius: 5px;
+  border-radius: 2px;
   width: 340px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
+}
+
+.page-links {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 20px;
 }
