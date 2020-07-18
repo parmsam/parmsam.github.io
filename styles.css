@@ -64,9 +64,10 @@ a:link {
   text-align: center;
   font-size: 18px;
   color: black;
+  width: 550px;
   margin-left:auto;
   margin-right: auto;
-  width: 700px;
+
 }
 
 .tabcontent {
