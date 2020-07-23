@@ -1,5 +1,10 @@
+html {
+  height: 100%;
+}
+
 body {
   font-family: Poiret One, Lobster, palatino;
+  height: 100%;
 }
 
 a:link {
@@ -15,7 +20,7 @@ a:link {
   font-size: 19.5px;
   font-weight: bold;
   font-family: Lobster;
-
+  position: relative;
 }
 .sub-title {
   text-align: center;
@@ -115,9 +120,8 @@ a:link {
   font-size: 20px;
 }
 
-.blog_emb {
-  min-height: 100px;
+iframe {
   border: none;
-  height: 1024px;
   width: 100%;
+  height:100%;
 }
