@@ -6,3 +6,4 @@
 * https://3dtransforms.desandro.com/
 * https://www.rapidtables.com/web/css/css-color.html
 * https://fonts.google.com/
+* [Font Awesome Favicon Generator](https://gauger.io/fonticon/)
