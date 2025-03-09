@@ -1,77 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="refresh" content="2; URL=https://parmsam.github.io/quarto-site/" />
+  <title>Loading...</title>
   <style>
-    /* Loading spinner styles */
-    .spinner {
-      margin: 20vh auto;
-      width: 10vw;
-      height: 10vw;
-      position: relative;
-      text-align: center;
-      animation: rotate 2.0s infinite linear;
-    }
-
-    .dot1,
-    .dot2 {
-      width: 60%;
-      height: 60%;
-      display: inline-block;
-      position: absolute;
-      top: 0;
-      background-color: #333;
-      border-radius: 100%;
-      animation: bounce 2.0s infinite ease-in-out;
-    }
-
-    .dot2 {
-      top: auto;
-      bottom: 0;
-      animation-delay: -1.0s;
-    }
-
-    @keyframes rotate {
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-
-    @keyframes bounce {
-
-      0%,
-      100% {
-        transform: scale(0.0);
-      }
-
-      50% {
-        transform: scale(1.0);
-      }
-    }
-
-    /* Centering styles */
+    /* General styles */
     body {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      margin: 0;
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: Arial, sans-serif;
       text-align: center;
+      margin: 0;
+    }
+
+    /* Modern loading spinner */
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 5px solid rgba(255, 255, 255, 0.3);
+      border-top: 5px solid #ffffff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* Fade-in effect */
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 1.5s ease-in forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
     }
 
     /* Responsive adjustments */
     @media (max-width: 600px) {
       .spinner {
-        width: 20vw;
-        height: 20vw;
+        width: 40px;
+        height: 40px;
       }
+    }
+
+    /* Link styles */
+    a {
+      color: #66b3ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 
 <body>
-  <div class="spinner">
-    <div class="dot1"></div>
-    <div class="dot2"></div>
-  </div>
-  <p>If you are not redirected in five seconds, <a href="https://parmsam.github.io/quarto-site/">click here</a>.</p>
+  <div class="spinner fade-in"></div>
+  <p class="fade-in">Redirecting... If not, <a href="https://parmsam.github.io/quarto-site/">click here</a>.</p>
 </body>
+
+</html>
